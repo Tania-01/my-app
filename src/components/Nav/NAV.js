@@ -1,9 +1,12 @@
-import React from "react"
+import React from 'react';
+import Burger from "./Burger"
+import Button from "./Button"
 import Logo from "./logo"
 import Wraper from "./Wraper"
-import Button from "./Button"
 import Selector from "./selector"
-import Burger from "./Burger"
+
+
+
 
  class NAV extends React.Component {
   render() {
@@ -14,7 +17,7 @@ import Burger from "./Burger"
         <Wraper />
         <Selector />
         <Button />
-        <Burger />
+       <Burger />
     </div>
      
     );
