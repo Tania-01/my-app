@@ -22,7 +22,7 @@ a{
 text-decoration: underline;
 text-decoration-color: #FFD41C;
 }
-.header{
+.wraper{
 display: flex;
 }
 .logo{
@@ -56,4 +56,67 @@ color: #9A9C9E;
     width: 132px;
     height: 37px;
     margin-left: 20px;
-}    
+}   
+.btn1 button{
+    margin-right: 40px;
+    margin-top: 36px;
+    background-color: #FFD41C;
+    color: white;
+    border: none;
+    width: 132px;
+    height: 37px;
+    margin-left: 20px;  
+} 
+
+@media (max-width: 768px){
+    nav{
+        display: none;
+    }
+    select{
+        display: none;
+    }
+    .btn{
+        
+        display: none;
+    }
+}
+@media(max-width:1520px){
+.logo{
+    margin-top: 15px;
+    width: 130px;
+    margin-left: 25px;
+}
+nav a{
+    font-size: 13px;
+    margin-left: 10px;
+
+} 
+nav{
+    width: 700px;
+    height: 17px;
+    margin-top: 45px;
+    margin-left: 150px;
+}
+select{
+    margin-left: 250px;
+    margin-top: 40px;
+    width: 54px;
+    height: 33px;
+    border: 0.5px solid #9A9C9E;
+    box-sizing: border-box;
+    font-size: 11px;
+    line-height: 12px;
+    text-align: center;
+    color: #9A9C9E
+}
+.btn button{
+    
+    margin-top: 40px;
+    background-color: #FFD41C;
+    width: 130px;
+    height: 30px;
+    margin-left: 15px;
+}
+
+
+}
