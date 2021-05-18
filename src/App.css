@@ -81,8 +81,7 @@ select{
 } 
 
 .btn button{
-    margin-right: 40px;
-    margin-top: 36px;
+        margin-top: 36px;
     background-color: #FFD41C;
     color: white;
     border: none;
