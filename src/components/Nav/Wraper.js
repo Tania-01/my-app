@@ -3,7 +3,7 @@ import React from 'react';
  class Header extends React.Component {
   render() {
     return (
-      <div>
+      
         <nav>
         <a href="">Як це працює</a> 
         <a href="">Про нас</a> 
@@ -13,7 +13,7 @@ import React from 'react';
         <a href="">Кар'єра</a>
         <a href="">Контакти</a>
       </nav>
-            </div>
+            
     );
   }
 }

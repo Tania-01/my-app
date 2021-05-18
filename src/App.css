@@ -36,7 +36,7 @@ nav {
     /* width: 739px; */
     height: 17px;
     margin-top: 43px;
-    margin-left: 21%;
+    margin-left: 193px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
@@ -290,6 +290,23 @@ select{
     }
 
 }
+@media (min-width:1725px) and (max-width:1930px) {
+    select{
+        margin-left:350px;
+    }
+    nav{
+        margin-left: 130px;
+    }
+    
+}
+@media (min-width:1561px) and (max-width:1725px) {
+    nav{
+        margin-left: 140px;
+    }
+    select{
+margin-left: 280px;
+    }
+}
 @media (min-width:100px) and (max-width:1560px){
     .intro__inner{
         padding-top: 130px;
@@ -308,7 +325,7 @@ select{
 
     /* header */
     .logo{
-        margin-top: 15px;
+        margin-top: 20px;
         /* width: 130px; */
         margin-left: 25px;
     }
@@ -320,10 +337,10 @@ select{
         /* width: 700px; */
         height: 17px;
         margin-top: 35px;
-        margin-left: 50px;
+        margin-left: 70px;
     }
     select{
-        margin-left: 200px;
+        margin-left: 300px;
         margin-top: 30px;
         /* width: 54px; */
         height: 33px;
@@ -342,7 +359,12 @@ select{
         margin-left: 15px;
     }
 }
-
+@media (min-width:100px) and (max-width:1400px)
+{
+select{
+    margin-left: 200px;
+}
+}
 @media (min-width:100px) and (max-width:1320px){
     .description__inner {
         grid-template-areas: "txt img" "btn btn";
@@ -361,7 +383,21 @@ select{
         margin-left: 150px;
     }
 
+    nav{
+        margin-left: 40px;
+    }
+    .logo img{
+        height: 60px;
+    }
+
 }
+@media (min-width:100px) and (max-width:1250px){
+   
+    select{
+        margin-left: 100px;
+    }
+}
+
 @media (min-width:100px) and (max-width:1200px){
     .intro__inner>img:first-child{
         padding-bottom: 26px;
@@ -387,12 +423,16 @@ select{
         height: 50px;
     } 
     select{
-        margin-left: 175px;
+        margin-left: 100px;
     }
-    nav{
-        margin-left: 30px;
-    }
+   
     
+}
+@media (max-width:1145px) {
+
+    nav, select, .btn{
+        display: none;
+    }
 }
 @media (min-width:100px) and (max-width:1024px){
     .intro__inner{
@@ -416,13 +456,9 @@ select{
     .description__text>p{
         font-size: 16px;
     }
-    nav {
-        margin-left: 15px;
-    }
-    select {
-        margin-left: 10px;
-        margin-top: 30px;
-    }
+   
+    
+    
 }
 
 @media (min-width:100px) and (max-width:768px){
@@ -482,8 +518,13 @@ select{
     nav, select, .btn{
         display: none;
     }
-    
-    
+   
+    .logo img{
+        height: 30px;
+    }
+    .logo{
+        height: 41px;
+    }
 }
 
 @media (min-width:100px) and (max-width:480px){

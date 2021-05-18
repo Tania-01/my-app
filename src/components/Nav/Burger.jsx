@@ -4,14 +4,14 @@ import RightNav from './NavRight';
 
 const StyledBurger = styled.div`
   width: 2rem;
-  height: 2rem;
+  height: 1.5rem;
   position: fixed;
   top: 20px;
   right: 20px;
   z-index: 20;
   display: none;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1145px) {
     display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;
